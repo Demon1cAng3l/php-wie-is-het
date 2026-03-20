@@ -4,3 +4,7 @@
 
     // Opdracht 3: Toon alle personages die een vrouw zijn.
     // Tip: Loop door alle personages en controleer de 'woman' feature.
+
+echo "<pre>";
+var_dump($characterDataset['features']['woman']);
+echo "</pre>";
