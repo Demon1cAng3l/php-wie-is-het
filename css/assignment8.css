@@ -41,7 +41,7 @@ h1, h2 {
     text-align: center;
     letter-spacing: 2px;
     margin-bottom: 20px;
-    color: var(--neon-red);
+    color: var(Fuchsia);
     text-shadow: 0 0 12px var(--neon-red-glow), 0 0 4px var(--neon-blue-glow);
 }
 
@@ -98,26 +98,23 @@ input[type="submit"] {
     margin-top: 12px;
     padding: 12px 20px;
     border-radius: 8px;
-    border: 2px solid var(--neon-red);
-    background: var(--bg-panel);
-    color: var(--neon-red);
-    font-size: 14px;
-    font-weight: 700;
-    cursor: pointer;
-    text-shadow: 0 0 6px var(--neon-red-glow);
+    border: 2px solid var(Fuchsia);
+    background: var(Fuchsia);
+    color: var(Fuchsia);
+    text-shadow: 0 0 6px var(Fuchsia);
     box-shadow:
             0 0 12px rgba(255, 0, 60, 0.25),
             inset 0 0 10px rgba(255, 0, 60, 0.15);
     transition: 0.25s ease;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: grab;
 }
 
 button:hover,
 input[type="submit"]:hover {
-    border-color: var(--neon-blue);
-    color: var(--neon-blue);
-    box-shadow:
-            0 0 14px var(--neon-blue-glow),
-            inset 0 0 14px rgba(0, 234, 255, 0.25);
+    border-color: var(Fuchsia);
+    color: var(Fuchsia);
 }
 
 button:active,
@@ -150,9 +147,6 @@ input[type="submit"]:active {
 
 .character-grid img:hover {
     border-color: var(--neon-blue);
-    box-shadow:
-            0 0 16px var(--neon-blue-glow),
-            inset 0 0 16px rgba(0, 234, 255, 0.25);
     transform: translateY(-4px) scale(1.05);
 }
 
